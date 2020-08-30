@@ -710,7 +710,7 @@ license =
                 , rel "noopener"
                 , target "_new"
                 ]
-                [ text "MIT" ]
+                [ text "MIT License" ]
             , text "."
             ]
         ]
@@ -722,12 +722,13 @@ contributions =
         [ Html.h4 [ class "section-title" ] [ text "Contributions" ]
         , Html.p []
             [ text "Please submit your feedback using this library to "
-            , Html.p
+            , Html.a
                 [ href "htps://github.com/hallelujahdrive/elm-accirdion/issues"
                 , rel "noopener"
                 , target "_new"
                 ]
                 [ text "GitHub" ]
+            , text "."
             ]
         ]
 
