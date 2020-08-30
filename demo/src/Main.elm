@@ -118,7 +118,7 @@ subscriptions model =
 
 view : Model -> Browser.Document Msg
 view model =
-    { title = "Elm Accordion - The simple accordion for Elm"
+    { title = "Elm Accordion - Simple Accordion for Elm"
     , body = body model
     }
 
