@@ -163,7 +163,11 @@ update =
                                         |> (\s_ ->
                                                 case s_ of
                                                     Single maybeString ->
-                                                        Expect.equal (Just randomGeneratedClosed) maybeString
+                                                        if randomGeneratedOpen == randomGeneratedClosed then
+                                                            Expect.pass
+
+                                                        else
+                                                            Expect.equal (Just randomGeneratedClosed) maybeString
 
                                                     _ ->
                                                         Expect.fail "Expect only Single"

@@ -1,3 +1,5 @@
+![build](https://github.com/hallelujahdrive/elm-accordion/workflows/build/badge.svg)
+
 # Elm Accordion
 
 Simple Accordion for Elm.

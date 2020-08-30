@@ -17,5 +17,6 @@ clean:
 	rm -rf dist
 	rm -f docs.json
 	rm -f demo/demo.js
+	rm -f demo/demo.css
 	rm -f demo/elm-accordion.min.js
 	rm -f demo/elm-accordion.min.css
