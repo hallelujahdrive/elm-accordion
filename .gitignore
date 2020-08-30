@@ -1,0 +1,7 @@
+dist
+docs.json
+elm-stuff
+node_modules
+demo/elm-accordion.min.*
+demo/demo.js
+demo/demo.css

@@ -1,0 +1,11 @@
+elm-accordion {
+    display: block;
+    
+    &-head {
+        display: block;
+    }
+    &-body {
+        display: block;
+        transition: height .15s cubic-bezier(.4, 0, .2, 1);
+    }
+}
