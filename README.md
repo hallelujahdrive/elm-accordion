@@ -9,7 +9,7 @@ This library adds an accordion element that toggles showing or hiding the conten
 ## Getting started
 ### Installation
 ```
-elm install hallelujahdrive/elm-croppie@1.0.0
+elm install hallelujahdrive/elm-croppie@1.0.1
 ```
 
 This library relies on additional JavaScript and CSS. Your project must load them in one of the following ways.
@@ -18,19 +18,20 @@ This library relies on additional JavaScript and CSS. Your project must load the
 The easy way is to add the following elements to your page:
 
 ```html
-<link rel="stylesheet" type="text/css" href="https://unpkg.com/elm-accordion@1.0.0/dist/elm-accordion.min.css" />
-<script src="https://unpkg.com/elm-accordion@1.0.0/dist/elm-accordion.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://unpkg.com/elm-accordion@1.0.1/dist/elm-accordion.min.css" />
+<script src="https://unpkg.com/elm-accordion@1.0.1/dist/elm-accordion.min.js"></script>
 ```
 
 ### Using bundler
 If you use bundler please instal the Javascript and CSS assets via npm:
 ```
-npm install elm-accordion@1.0.0
+npm install elm-accordion@1.0.1
 ```
 
 Then in your Javascript add a following import:
 ```javascript
-require("elm-accordio");
+require("elm-accordion/dist/elm-accordion.min.js");
+require("elm-accordion/dist/elm-accordion.min.css");
 ```
 
 ### Simple usage
@@ -52,8 +53,6 @@ view model =
         )
         ( Accordion.body [] [ text "Accordion body content" ] )
 ```
-
-
 
 ## Browser support
 This library is implemented using `custom elements`. Check the support status of [Custom Elements(V1)](https://caniuse.com/#feat=custom-elementsv1) for each broser.

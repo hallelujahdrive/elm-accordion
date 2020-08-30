@@ -1,6 +1,6 @@
 {
   "name": "elm-accordion",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple Accordion For Elm",
   "scripts": {
     "test": "elm-test"
@@ -22,5 +22,8 @@
     "tslib": "^2.0.1",
     "typescript": "^4.0.2"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "main": "dist/elm-accordion.common.js",
+  "module": "dist/elm-accordion.esm.js",
+  "unpkg": "dist/elm-accordion.min.js"
 }

@@ -5,10 +5,20 @@ import typescript from "@rollup/plugin-typescript";
 
 export default {
     "input": "src/elm-accordion.ts",
-    "output": {
-        file: "dist/elm-accordion.min.js",
-        format: "iife"
-    },
+    "output": [
+        {
+            file: "dist/elm-accordion.common.js",
+            format: "cjs"
+        },
+        {
+            file: "dist/elm-accordion.esm.js",
+            format: "es"
+        },
+        {
+            file: "dist/elm-accordion.min.js",
+            format: "iife",
+        }
+    ],
     plugins: [
         commonjs(),
         typescript({

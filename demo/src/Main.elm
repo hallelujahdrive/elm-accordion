@@ -9,7 +9,7 @@ import Html.Events exposing (onCheck, onClick)
 
 
 version =
-    "1.0.0"
+    "1.0.1"
 
 
 main : Program () Model Msg
@@ -208,7 +208,9 @@ installation =
             , Html.p [] [ text "If you want to use a bundler like webpack you can install the package from npm:" ]
             , preCode "javascript" ("npm install elm-accordion@" ++ version)
             , Html.p [] [ text "And in your Javascript add the following import:" ]
-            , preCode "javascript" """require("elm-accordion");"""
+            , preCode "javascript" """require("elm-accordion/dist/elm-accordion.min.js");
+require("elm-accordion/dist/elm-accordion.min.css");
+"""
             ]
         ]
 
