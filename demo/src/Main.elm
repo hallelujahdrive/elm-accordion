@@ -138,7 +138,7 @@ header =
             [ Html.nav [ class "header-nav" ]
                 [ Html.a [ href "#getting-started" ] [ text "Getting started" ]
                 , Html.a [ href "#documentation" ] [ text "Documentation" ]
-                , Html.a [ href "#example" ] [ text "Examples" ]
+                , Html.a [ href "#examples" ] [ text "Examples" ]
                 , Html.a [ href "#browser-support" ] [ text "About" ]
                 ]
             , Html.div [ class "header-title-container" ]
@@ -149,7 +149,7 @@ header =
             , Html.div [ class "header-buttons-container" ]
                 [ Html.a
                     [ class "outlined-button"
-                    , href "https://elm-packages/hallelujahdrive/elm-accordion/latest"
+                    , href "https://package.elm-lang.org/packages/hallelujahdrive/elm-accordion/latest"
                     , rel "noopener"
                     , target "_new"
                     ]

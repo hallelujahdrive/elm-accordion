@@ -103,7 +103,7 @@ h6 {
 
 header {
     background: linear-gradient(100deg, #ff1744, #ff4252);
-    height: 360px;
+    min-height: 360px;
     padding: 0px 32px;
     
     .header-wrapper {
@@ -113,6 +113,7 @@ header {
         position: relative;
 
         .header-buttons-container {
+            margin-bottom: 16px;
 
             .outlined-button {
                 background-color: rgba(255, 255, 255, 0);
@@ -219,7 +220,7 @@ section {
 
 .doc-header {
     padding: 10px 0;
-    white-space: pre;
+    white-space: break-spaces;
 
     * {
         font-family: 'Source Code Pro', monospace;
