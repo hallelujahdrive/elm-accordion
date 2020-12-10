@@ -12,7 +12,7 @@ This library adds an accordion element that toggles showing or hiding the conten
 ## Getting Started
 ### Installation
 ```
-elm install hallelujahdrive/elm-croppie@1.0.1
+elm install hallelujahdrive/elm-accordion@1.0.2
 ```
 
 This library relies on additional JavaScript and CSS. Your project must load them in one of the following ways.
@@ -28,7 +28,7 @@ The easy way is to add the following elements to your page:
 ### Using Bundler
 If you use bundler please instal the Javascript and CSS assets via npm:
 ```
-npm install elm-accordion@1.0.1
+npm install elm-accordion@1.0.2
 ```
 
 Then in your Javascript add a following import:
