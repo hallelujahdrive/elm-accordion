@@ -9,7 +9,7 @@ import Html.Events exposing (onCheck, onClick)
 
 
 version =
-    "1.0.2"
+    "1.0.3"
 
 
 main : Program () Model Msg

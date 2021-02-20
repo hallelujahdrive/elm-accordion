@@ -1,8 +1,7 @@
 module AccordionTest exposing (..)
 
 import Accordion
-import Expect exposing (Expectation)
-import Fuzz exposing (Fuzzer, bool, int, list, string)
+import Fuzz exposing ( bool)
 import Html.Attributes as Attrs
 import Test exposing (..)
 import Test.Html.Query as Query
