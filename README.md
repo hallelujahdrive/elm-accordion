@@ -60,13 +60,14 @@ type Msg
     = HeadClicked
 
 view model =
-    Accordion.accordion model
+    Accordion.accordion
         []
         ( Accordion.head
             [ onClick HeadClicked ]
             [ text "Accordion head text content" ]
         )
         ( Accordion.body [] [ text "Accordion body content" ] )
+        model
 ```
 
 ## Browser Support

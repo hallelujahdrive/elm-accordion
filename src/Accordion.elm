@@ -15,7 +15,7 @@ module Accordion exposing
         = HeadClicked
 
     view model =
-        Accordion.accordion model
+        Accordion.accordion
             (Accordion.head
                 [ onClick HeadClicked ]
                 headChildren
@@ -24,6 +24,7 @@ module Accordion exposing
                 []
                 bodyChildren
             )
+            model
 
     uodate msg model =
         case msg of
