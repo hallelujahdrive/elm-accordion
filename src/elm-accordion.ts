@@ -40,16 +40,23 @@ class ElmAccordion extends HTMLElement {
   }
 
   private updateHeight() {
-    requestAnimationFrame(() => {
-      if (this.body_) {
-        this.body_.style.height = this.body_.scrollHeight + "px";
-        if (!this.open_) {
-          requestAnimationFrame(() => {
-            this.body_ && (this.body_.style.height = "0px");
-          });
+    if (!this.body_) return;
+
+    if (this.body_.style.height) {
+      requestAnimationFrame(() => {
+        if (this.body_) {
+          this.body_.style.height = this.body_.scrollHeight + "px";
+
+          if (!this.open_) {
+            requestAnimationFrame(() => {
+              this.body_ && (this.body_.style.height = "0px");
+            });
+          }
         }
-      }
-    });
+      });
+    } else {
+      this.body_.style.height = this.open_ ? "auto" : "0px";
+    }
   }
 
   private transitionEndFunc() {
