@@ -1,6 +1,6 @@
 {
   "name": "elm-accordion",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Simple Accordion For Elm",
   "scripts": {
     "test": "elm-test"

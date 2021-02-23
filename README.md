@@ -15,7 +15,7 @@ This library adds an accordion element that toggles showing or hiding the conten
 ### Installation
 
 ```
-elm install hallelujahdrive/elm-accordion@1.0.3
+elm install hallelujahdrive/elm-accordion@1.0.4
 ```
 
 This library relies on additional JavaScript and CSS. Your project must load them in one of the following ways.
@@ -28,9 +28,9 @@ The easy way is to add the following elements to your page:
 <link
   rel="stylesheet"
   type="text/css"
-  href="https://unpkg.com/elm-accordion@1.0.3/dist/elm-accordion.min.css"
+  href="https://unpkg.com/elm-accordion@1.0.4/dist/elm-accordion.min.css"
 />
-<script src="https://unpkg.com/elm-accordion@1.0.3/dist/elm-accordion.min.js"></script>
+<script src="https://unpkg.com/elm-accordion@1.0.4/dist/elm-accordion.min.js"></script>
 ```
 
 ### Using Bundler
@@ -38,7 +38,7 @@ The easy way is to add the following elements to your page:
 If you use bundler please instal the Javascript and CSS assets via npm:
 
 ```
-npm install elm-accordion@1.0.3
+npm install elm-accordion@1.0.4
 ```
 
 Then in your Javascript add a following import:
