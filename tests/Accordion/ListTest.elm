@@ -2,7 +2,7 @@ module Accordion.ListTest exposing (..)
 
 import Accordion.Internal exposing (Status(..))
 import Accordion.List as AccordionList
-import Expect exposing (Expectation)
+import Expect
 import Fuzz exposing (Fuzzer, float, int, list, maybe, string)
 import Set
 import Test exposing (..)
